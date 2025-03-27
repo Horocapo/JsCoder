@@ -35,19 +35,38 @@ else{
     
 }
 
+console.log("Inicio del bucle for");
+
 //Bucles
 for (
     let i = 0; i <= 10; i++) {
-        console.log(i, "Bucle");
+        console.log("Numero: " + i);
         
     }
 
+console.log("Fin del bucle for");
+console.log("Inicio del bucle while");
+
+
+
 //While ejecuta un bloq de codigo mientras la condicion sea verdadera
 
-let i = 0;
-while (i < 5){
-    console.log(i);
-    i++;
-    
-}
+// let i = 0;
+// while (i < 5){
+//    console.log("Numero: " + i);
+//    i++;
+//    
+// }
+
+console.log("Fin del bucle while");
 //Cambio para commit
+
+
+//Ciclo do while
+
+let i = 0;
+do{
+    console.log("Numero: " + i);
+    i++;
+}
+while(i < 1);
